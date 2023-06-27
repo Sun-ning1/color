@@ -2,6 +2,7 @@ package com.example.learncolorapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.GameManager;
 import android.os.Bundle;
 import android.widget.Button;
 import android.content.DialogInterface;
@@ -34,7 +35,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        startButton = findViewById(R.id.start_button);
+        startButton = (Button)findViewById(R.id.start_button);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GameActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 }
