@@ -24,6 +24,7 @@ id option2
 id option3
 id start_button
 id textView
+id thetitle
 layout activity_main
 layout gamepage
 mipmap ic_launcher

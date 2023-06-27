@@ -34,16 +34,16 @@ public class GameActivity extends AppCompatActivity{
 
 
     Integer[] colors = {
-            R.color.color1,
-            R.color.color2,
-            R.color.color3,
-            R.color.color4,
-            R.color.color5,
-            R.color.color6,
-            R.color.color7,
-            R.color.color8,
-            R.color.color9,
-            R.color.color10,
+            R.color.Red,
+            R.color.Orange,
+            R.color.Yellow,
+            R.color.Green,
+            R.color.Cyanblue,
+            R.color.Blue,
+            R.color.Purple,
+            R.color.Black,
+            R.color.White,
+            R.color.Grey,
 
     };
     Random random;
@@ -66,6 +66,7 @@ public class GameActivity extends AppCompatActivity{
         Option1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Option1.setText("X");
                 textView.setBackgroundColor(
                         ContextCompat.getColor(getApplicationContext(),
                                 colors[random.nextInt(colors.length)])
