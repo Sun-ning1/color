@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.LearnColorApplication" >
         <activity
+            android:name="com.example.learncolorapplication.GameActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.learncolorapplication.MainActivity"
             android:exported="true" >
             <intent-filter>

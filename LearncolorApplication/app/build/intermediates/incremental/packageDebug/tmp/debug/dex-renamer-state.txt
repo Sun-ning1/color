@@ -1,4 +1,4 @@
-#Tue Jun 27 01:16:34 MDT 2023
+#Tue Jun 27 02:07:40 MDT 2023
 base.2=/Users/sunning/Downloads/color/LearncolorApplication/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
 path.2=2/classes.dex
 base.1=/Users/sunning/Downloads/color/LearncolorApplication/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
