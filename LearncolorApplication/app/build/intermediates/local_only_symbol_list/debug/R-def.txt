@@ -1,6 +1,16 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color color1
+color color10
+color color2
+color color3
+color color4
+color color5
+color color6
+color color7
+color color8
+color color9
 color purple_200
 color purple_500
 color purple_700
@@ -13,6 +23,7 @@ id option1
 id option2
 id option3
 id start_button
+id textView
 layout activity_main
 layout gamepage
 mipmap ic_launcher
