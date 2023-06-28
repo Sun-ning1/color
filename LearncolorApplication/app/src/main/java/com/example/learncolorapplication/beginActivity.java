@@ -19,31 +19,30 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.core.content.ContextCompat;
 
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 
+public class beginActivity extends AppCompatActivity{
 
-public class MainActivity extends AppCompatActivity {
-    Button startButton;
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    Button beginbutton;
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        startButton = (Button)findViewById(R.id.start_button);
-        startButton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.begin);
+
+        beginbutton = (Button) findViewById(R.id.begin);
+        beginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, beginActivity.class);
+                Intent intent = new Intent(beginActivity.this,GameActivity.class);
                 startActivity(intent);
-
             }
         });
 
+        }
     }
-}
+

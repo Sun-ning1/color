@@ -25,12 +25,17 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Dictionary;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 public class GameActivity extends AppCompatActivity{
     TextView textView;
     Button Option1;
     Button Option2;
     Button Option3;
+
+    private String colorlist[] = {"Red","Orange","Yellow","Green","Cyanblue","Blue","Purple","Black","White","Grey"};
 
 
     Integer[] colors = {
@@ -61,22 +66,50 @@ public class GameActivity extends AppCompatActivity{
         Option1 =(Button) findViewById(R.id.option1);
         Option2 =(Button) findViewById(R.id.option2);
         Option3 =(Button) findViewById(R.id.option3);
+        question_refresh();
+
 
 
         Option1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Option1.setText("X");
-                textView.setBackgroundColor(
-                        ContextCompat.getColor(getApplicationContext(),
-                                colors[random.nextInt(colors.length)])
-                );
+                question_refresh();
+
+            }
+        });
+
+        Option2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                question_refresh();
+            }
+
+        });
+
+        Option3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                question_refresh();
 
             }
         });
 
     }
 
+    private void question_refresh() {
+        int num = random.nextInt(colorlist.length);
+        int num1 = random.nextInt(colorlist.length);
+        int num2 = random.nextInt(colorlist.length);
+        Option1.setText(colorlist[num]);
+        Option2.setText(colorlist[num1]);
+        Option3.setText(colorlist[num2]);
+
+        textView.setBackgroundColor(
+                ContextCompat.getColor(getApplicationContext(),
+                        colors[random.nextInt(colors.length)])
+        );
+    }
 
 
 }

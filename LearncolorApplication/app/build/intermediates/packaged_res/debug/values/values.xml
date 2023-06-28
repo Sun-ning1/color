@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="Black">#000000</color>
+    <color name="Blue">#2196F3</color>
+    <color name="Cyanblue">#1A237E</color>
+    <color name="Green">#00E676</color>
+    <color name="Grey">#607D8B</color>
+    <color name="Orange">#FF9800</color>
+    <color name="Purple">#8E24AA</color>
+    <color name="Red">#F44336</color>
+    <color name="White">#FAFAFA</color>
+    <color name="Yellow">#FFEB3B</color>
     <color name="black">#FF000000</color>
-    <color name="color1">#F44336</color>
-    <color name="color10">#607D8B</color>
-    <color name="color2">#8E24AA</color>
-    <color name="color3">#2196F3</color>
-    <color name="color4">#00E676</color>
-    <color name="color5">#FFEB3B</color>
-    <color name="color6">#FF9800</color>
-    <color name="color7">#1A237E</color>
-    <color name="color8">#000000</color>
-    <color name="color9">#FFFFFF</color>
     <color name="purple_200">#212121</color>
     <color name="purple_500">#212121</color>
     <color name="purple_700">#212121</color>

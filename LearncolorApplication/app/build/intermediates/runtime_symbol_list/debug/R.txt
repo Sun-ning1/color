@@ -1177,6 +1177,16 @@ int bool m3_sys_typescale_title_large_text_all_caps 0x7f04000e
 int bool m3_sys_typescale_title_medium_text_all_caps 0x7f04000f
 int bool m3_sys_typescale_title_small_text_all_caps 0x7f040010
 int bool mtrl_btn_textappearance_all_caps 0x7f040011
+int color Black 0x7f05025d
+int color Blue 0x7f05025e
+int color Cyanblue 0x7f05025f
+int color Green 0x7f050260
+int color Grey 0x7f050261
+int color Orange 0x7f050262
+int color Purple 0x7f050263
+int color Red 0x7f050264
+int color White 0x7f050265
+int color Yellow 0x7f050266
 int color abc_background_cache_hint_selector_material_dark 0x7f050000
 int color abc_background_cache_hint_selector_material_light 0x7f050001
 int color abc_btn_colored_borderless_text_material 0x7f050002
@@ -1224,16 +1234,6 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
-int color color1 0x7f050253
-int color color10 0x7f050254
-int color color2 0x7f050255
-int color color3 0x7f050256
-int color color4 0x7f050257
-int color color5 0x7f050258
-int color color6 0x7f050259
-int color color7 0x7f05025a
-int color color8 0x7f05025b
-int color color9 0x7f05025c
 int color design_bottom_navigation_shadow_color 0x7f05002f
 int color design_box_stroke_color 0x7f050030
 int color design_dark_default_color_background 0x7f050031
@@ -2515,6 +2515,7 @@ int drawable test_custom_background 0x7f070099
 int drawable test_level_drawable 0x7f07009a
 int drawable tooltip_frame_dark 0x7f07009b
 int drawable tooltip_frame_light 0x7f07009c
+int drawable tv_selector 0x7f07009d
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2604,6 +2605,7 @@ int id autoCompleteToEnd 0x7f080055
 int id autoCompleteToStart 0x7f080056
 int id barrier 0x7f080057
 int id baseline 0x7f080058
+int id begin 0x7f0801e3
 int id beginOnFirstDraw 0x7f080059
 int id beginning 0x7f08005a
 int id bestChoice 0x7f08005b
@@ -2732,6 +2734,7 @@ int id image 0x7f0800d5
 int id immediateStop 0x7f0800d6
 int id included 0x7f0800d7
 int id info 0x7f0800d8
+int id intro 0x7f0801e4
 int id invisible 0x7f0800d9
 int id inward 0x7f0800da
 int id italic 0x7f0800db
@@ -3083,6 +3086,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout begin 0x7f0b0075
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f

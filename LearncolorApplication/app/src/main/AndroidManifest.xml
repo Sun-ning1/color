@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnColorApplication">
         <activity
+            android:name=".beginActivity"
+            android:exported="true"/>
+
+        <activity
             android:name=".GameActivity"
             android:exported="true"/>
         <activity

@@ -4,10 +4,6 @@
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.learncolorapplication.app-merged_res-25:/layout_gamepage.xml.flat",
-        "source": "com.example.learncolorapplication.app-main-27:/layout/gamepage.xml"
-    },
-    {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -26,6 +22,10 @@
     {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.learncolorapplication.app-merged_res-25:/layout_begin.xml.flat",
+        "source": "com.example.learncolorapplication.app-main-27:/layout/begin.xml"
     },
     {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -48,6 +48,10 @@
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/drawable_tv_selector.xml.flat",
+        "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/drawable/tv_selector.xml"
+    },
+    {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/layout_begin.xml.flat",
+        "source": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-main-27:/layout/begin.xml"
     },
     {
         "merged": "/Users/sunning/.gradle/daemon/7.5/com.example.learncolorapplication.app-merged_res-25:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
