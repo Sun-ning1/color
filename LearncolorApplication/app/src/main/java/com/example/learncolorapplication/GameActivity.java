@@ -29,6 +29,7 @@ import java.util.Dictionary;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
+
 public class GameActivity extends AppCompatActivity{
     TextView textView;
     Button Option1;
@@ -38,7 +39,7 @@ public class GameActivity extends AppCompatActivity{
     private String colorlist[] = {"Red","Orange","Yellow","Green","Cyanblue","Blue","Purple","Black","White","Grey"};
 
 
-    Integer[] colors = {
+    private Integer colors[] = {
             R.color.Red,
             R.color.Orange,
             R.color.Yellow,
@@ -51,7 +52,23 @@ public class GameActivity extends AppCompatActivity{
             R.color.Grey,
 
     };
+
+//    private int choose(){
+//        for (Integer i :colors){
+//            return i;
+//
+//        }
+//        return 0;
+//    }
+
+
+//    public void main(String[] args) {
+//        choose();
+//        int choose;
+//
+//    }
     Random random;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +98,7 @@ public class GameActivity extends AppCompatActivity{
         Option2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 question_refresh();
             }
 
@@ -97,19 +115,31 @@ public class GameActivity extends AppCompatActivity{
 
     }
 
+
+
     private void question_refresh() {
+
         int num = random.nextInt(colorlist.length);
         int num1 = random.nextInt(colorlist.length);
         int num2 = random.nextInt(colorlist.length);
-        Option1.setText(colorlist[num]);
-        Option2.setText(colorlist[num1]);
-        Option3.setText(colorlist[num2]);
+
+
+
+        Integer[] colorslist = {num,num1,num2};
+        int num3 = random.nextInt(colorslist.length);
+
 
         textView.setBackgroundColor(
                 ContextCompat.getColor(getApplicationContext(),
-                        colors[random.nextInt(colors.length)])
+                        colors[colorslist[num3]])
         );
+
+        Option1.setText(colorlist[num]);
+        Option2.setText(colorlist[num1]);
+        Option3.setText(colorlist[num2]);
     }
+
+
 
 
 }
